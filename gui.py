@@ -5,7 +5,7 @@ import PySimpleGUI as sg
 
 layout = [ [sg.Text("action" , key="action")],
            [sg.Button("StartBond", size (15,4)),sg.Button("StopBond",size=(15,4))],
-           [sg.Button("USBRESET",size=(15,4)), sg.Button("NMAP",size=(15,4))],
+           [sg.Button("Reset 4G",size=(15,4)), sg.Button("Update",size=(15,4))],
            [sg.Button("QUIT")]          ]
 # Create the Window
 window = sg.Window('PaperPixLive', layout, size=(320,240))
