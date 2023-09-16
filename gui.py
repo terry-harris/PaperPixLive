@@ -17,7 +17,7 @@ while True:
     event, values = window.read()
     window['action'].Update(event) 
     print(event,values)
-    if event in ("ACTION"):
+    if event in ("-ACTION-"):
         Popen(["ls", "-la"], stdout=DEVNULL) #TODO: Use actual cmd
     if event in (None, 'QUIT'):
         break
